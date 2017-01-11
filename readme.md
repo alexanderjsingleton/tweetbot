@@ -31,3 +31,7 @@ Simply Do:
 
 ### License
 MIT
+
+### A special-thanks to my favorite *Git* `prune` command:
+
+`git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch config.js' --prune-empty --tag-name-filter cat -- --all`
