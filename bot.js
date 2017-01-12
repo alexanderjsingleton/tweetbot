@@ -56,7 +56,7 @@ function tweetNow(tweetTxt) {
 // find latest tweet according the query 'q' in params
 var retweet = function() {
     var params = {
-        q: '@theAJSingleton OR #BucephalusDev OR #BucephalusDevStable2016',  // REQUIRED
+        q: '@theAJSingleton OR #BucephalusDevStable2016',  // REQUIRED
         result_type: 'recent',
         lang: 'en'
     }
@@ -97,7 +97,7 @@ setInterval(retweet, 150000);
 // find a random tweet and 'favorite' it
 var favoriteTweet = function(){
   var params = {
-      q: '@theAJSingleton OR #BucephalusDev OR #BucephalusDevStable2016',  // REQUIRED
+      q: '@theAJSingleton OR #BucephalusDevStable2016',  // REQUIRED
       result_type: 'recent',
       lang: 'en'
   }
