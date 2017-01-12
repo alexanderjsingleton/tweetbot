@@ -56,7 +56,7 @@ function tweetNow(tweetTxt) {
 // find latest tweet according the query 'q' in params
 var retweet = function() {
     var params = {
-        q: '@nodejs OR #nodejs OR #angularjs OR #mongodb OR @angular OR #angular OR @mongodb OR #meanstack OR @npmjs OR #ionicframework OR @Ionicframework OR @NodeUp OR @nodeweeklyfeed',  // REQUIRED
+        q: '@theAjSingleton OR #BucephalusDev OR #BucephalusDevStable2016',  // REQUIRED
         result_type: 'recent',
         lang: 'en'
     }
@@ -97,7 +97,7 @@ setInterval(retweet, 150000);
 // find a random tweet and 'favorite' it
 var favoriteTweet = function(){
   var params = {
-      q: '@nodejs OR #nodejs OR #angularjs OR #mongodb OR @angular OR @mongodb OR #meanstack OR @npmjs OR #ionicframework OR @Ionicframework OR @IonicCreator OR @nodeweeklyfeed',  // REQUIRED
+      q: '@theAjSingleton OR #BucephalusDev OR #BucephalusDevStable2016',  // REQUIRED
       result_type: 'recent',
       lang: 'en'
   }
